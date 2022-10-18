@@ -1,0 +1,46 @@
+/*
+  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Pacifico', cursive;
+
+  cores
+  Verde escuro: #065902
+  Verde claro:  #078c31
+  Amarelo:      #f2b705
+  Vermelho claro: #f03733
+  Vermelho escuro #d90404
+  Cinza escuro: #404040
+  Cinza claro: #f7f7f7
+*/
+
+/* Padrão p/ todo site */
+*{
+    font-size: 16px;
+}
+
+h1,h2,h3{
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    color: #d90404;
+}
+
+h4,h5,h6{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: #f2b705;
+}
+
+h1{
+    font-size: 600%;
+    font-weight: 200;
+}
+
+h2{
+    font-size: 400%;
+    font-weight: 200;
+}
+
+p,li,a{
+    font-family: 'Open Sans', sans-serif;
+}
