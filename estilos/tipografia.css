@@ -44,3 +44,30 @@ h2{
 p,li,a{
     font-family: 'Open Sans', sans-serif;
 }
+
+/* Elementos do Reader */
+header #chamada h1{
+    color: #fff;
+    text-shadow: 4px 6px 10px #000;
+}
+
+header #chamada h4{
+    font-size: 250%;
+    text-shadow: 4px 6px 10px #000;
+    margin-bottom: 55px;
+}
+
+header #chamada a{
+    color: #fff;
+    font-size: 110%;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 20px 80px;
+    border-radius: 50px;
+    background: #078c31;
+    background: linear-gradient(rgba(7,140,49,55) 0%,rgba(6,89,2,35) 40%,
+    rgba(6,89,2,35) 100%);
+}
+
+
+/* Fim Elementos do Reader */
