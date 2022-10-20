@@ -41,9 +41,25 @@ h2{
     font-weight: 200;
 }
 
+h4{
+    font-size: 150%;
+    font-weight: 150;
+    padding: 20px 0;
+}
+
 p,li,a{
     font-family: 'Open Sans', sans-serif;
+    color: #404040;
 }
+
+p.destaque{
+    font-size: 130%;
+    line-height: 1.8;
+    font-weight: 300;
+    text-align: center;
+    width: 60%;
+}
+
 
 /* Elementos do Reader */
 header #chamada h1{
@@ -69,5 +85,19 @@ header #chamada a{
     rgba(6,89,2,35) 100%);
 }
 
-
 /* Fim Elementos do Reader */
+
+/* Seção Domingo Perfeito */
+.pontos-chaves h4{
+    color: #404040;
+}
+
+.pontos-chaves h4:after{
+    display: block;
+    background-color: #078c31;
+    height: 5px;
+    width: 30%;
+    margin: 20px auto 10px;
+    content: " ";
+}
+/* Fim Seção Domingo Perfeito */
