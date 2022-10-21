@@ -101,3 +101,18 @@ header #chamada a{
     content: " ";
 }
 /* Fim Seção Domingo Perfeito */
+
+/* Seção Pizza */
+#pizza p.destaque{
+    color: #fff;
+    
+}
+
+#pizza ul li{
+    color: white;
+    list-style: none;
+    line-height: 1.9;
+    font-size: 90%;
+    text-transform: uppercase;
+}
+/* Fim Seção Pizza */
