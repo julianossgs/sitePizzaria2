@@ -229,3 +229,82 @@ header #chamada{
 }
 
 /* Fim Seção Pizza */
+
+/* Seção Depoimentos */
+#testemunha{
+    width: 100%;
+    padding: 40px 0 80px;
+    background-image: linear-gradient(rgba(255,255,255,1),rgba(255,255,255,0.8),rgba(255,255,255,1)) ,url(../Imagens/secao11-background-secao-depoimento.png);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 1000px;
+    
+}
+
+#testemunha-mestre{
+    width: 100%;
+    height: 300px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+}
+#testemunha-centro{
+    width: 100%;
+    height: 300px;
+   /* margin: 0 auto;*/
+   /* position: relative;*/
+    position: absolute;
+    margin: 0 170px;
+    max-width: 1010px;
+}
+
+#testemunhas{
+    position: absolute;
+    left: 0;
+    width: 1024px;
+}
+
+#testemunhas ul{
+    display: inline-table;
+    width: 300px;
+    background: #fff;
+    padding: 30px;
+    margin: 50px 15px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#testemunhas ul li{
+    list-style: none;
+    display: inline-table;
+    width: 90%;
+    margin: 0;
+}
+
+#testemunhas h5{
+    font-size: 120%;
+}
+
+#testemunhas ul p{
+   line-height: 1.5;
+   color: #404040;
+   font-size: 90%;
+}
+
+#testemunhas ul img{
+   width: 100%;
+   border-radius: 90%;
+   margin-top: -90px;
+   margin-bottom: 20px;
+   border: 5px solid #f03733;
+}
+
+
+/* Fim Seção Depoimentos */

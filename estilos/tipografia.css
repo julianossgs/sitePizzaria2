@@ -116,3 +116,9 @@ header #chamada a{
     text-transform: uppercase;
 }
 /* Fim Seção Pizza */
+
+/* Seção Depoimentos */
+#testemunha p.destaque{
+    width: 40%;
+}
+/* Fim Seção Depoimentos */
