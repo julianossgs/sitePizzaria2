@@ -240,7 +240,7 @@ header #chamada{
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
-    height: 1000px;
+    height: 800px;
     
 }
 
@@ -308,3 +308,43 @@ header #chamada{
 
 
 /* Fim Seção Depoimentos */
+
+/* Transição */
+#transicao-testemunha-plano{
+    
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#decoracao1{
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 30%;
+    height: 100%;
+    background-image: url(../Imagens/secao13-tomate-manjericao-alho.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#decoracao2{
+    width: 30%;
+    height: 100%;
+    background-image: url(../Imagens/secao13-azeite.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#decoracao3{
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 30%;
+    height: 100%;
+    background-image: url(../Imagens/secao13-detalhe-tomate.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+/* Fim Transição */
