@@ -105,6 +105,7 @@ header #chamada a{
 /* Seção Pizza */
 #pizza p.destaque{
     color: #fff;
+    content: " ";
     
 }
 
@@ -148,3 +149,16 @@ header #chamada a{
     padding: 35px;
 }
 /* Fim Seção Planos */
+
+/* Seção Footer */
+footer #info ul{
+    margin-left: 38px;
+    margin-bottom: 110px;
+}
+
+footer #info li{
+    list-style: none;
+    color: #fff;
+    margin-bottom: 5px;
+}
+/* Fim Seção Footer */
