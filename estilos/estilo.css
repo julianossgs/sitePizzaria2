@@ -348,3 +348,46 @@ header #chamada{
 }
 
 /* Fim Transição */
+
+/* Seção Planos */
+#plano-principal{
+    width: 100%;
+    padding: 40px 0 80px;
+    height: 600px;
+}
+
+#planos-janela{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.planos{
+    width: 250px;
+    height: 450px;
+    margin: 80px 30px;
+}
+
+.planos-top{
+    width: 250px;
+    height: 350px;
+    background-color: #f7f7f7;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #ccc;
+}
+
+.planos-bottom{
+    width: 250px;
+    height: 100px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #078c31;
+    box-shadow: 2px 2px 3px #ccc;
+    cursor: pointer;
+}
+
+/* Fim Seção Planos */
