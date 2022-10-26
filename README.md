@@ -4,6 +4,6 @@
 **com algumas funcionalidades em Javascript**
 
 ###Linguagens do Projeto:
-*Html
-*Css
-*Javascript
+* Html
+* Css
+* Javascript
